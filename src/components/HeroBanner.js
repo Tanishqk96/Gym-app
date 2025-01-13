@@ -6,7 +6,7 @@ const HeroBanner = () => {
   return (
     <Box sx={{mt:{lg:'212px',xs:'70px'}, ml:{sm:'80px'}}} position="relative" p="20px">
         <Typography color="#FF2625" fontSize="26px" fontWeight="600">
-        Peak Performance Studio
+        PEAK PERFORMANCE STUDIO
         </Typography>
         <Typography sx={{fontSize:{lg:'44px',sm:'40px'}}} fontWeight={750} mt='20px'>Push, Persevere <br/> and Progress.</Typography>
         <Typography lineHeight='40px' fontSize='22px' mb='30px' mt='23px'>Level Up with Targeted Workouts</Typography>
