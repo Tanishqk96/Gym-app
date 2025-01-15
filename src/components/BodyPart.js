@@ -2,8 +2,6 @@ import React from 'react'
 import Icon from '../assets/icons/gym.png';
 import { Stack, Typography } from '@mui/material';
 const BodyPart = ({ item, setBodyPart , selectedBodyPart}) => {
-    console.log('Item:', item);
-  console.log('Selected Body Part:', selectedBodyPart);
   return (
  <Stack type='button'
         alignItems='center'
