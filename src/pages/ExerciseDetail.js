@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ExerciseVideos from '../components/ExerciseVideos'
 import Detail from '../components/Detail'
-import SimilarExercises from '../components/SimilarExercises'
 import { useParams } from 'react-router-dom'
 import {exerciseoptions, fetchData, youtubeOptions} from  '../utils/fetchData' 
 
@@ -28,7 +27,6 @@ const ExerciseDetail = () =>{
     <div>
       <Detail exerciseDetail={exerciseDetail}/>
       <ExerciseVideos exercisevideos={exercisevideos} name={exerciseDetail.name}/>
-      <SimilarExercises/>
     </div>
   )
 }

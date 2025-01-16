@@ -17,7 +17,7 @@ const Footer = () => {
         height:'100px'
       }}
     >
-      <Typography variant="h7" textTransform='capitalize'>
+      <Typography variant="h7" textTransform='capitalize' fontWeight='600'>
         Made with ❤️ by Tanishq
       </Typography>
     </Box>
