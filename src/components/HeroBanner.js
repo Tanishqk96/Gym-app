@@ -11,7 +11,7 @@ const HeroBanner = () => {
         <Typography sx={{fontSize:{lg:'44px',sm:'40px'}}} fontWeight={750} mt='20px'>Push, Persevere <br/> and Progress.</Typography>
         <Typography lineHeight='40px' fontSize='22px' mb='30px' mt='23px'>Level Up with Targeted Workouts</Typography>
         <Button variant='contained' color='error'  href='#exercises'
-        sx={{backgroundColor:'#FF2625', padding:'10px'}}
+        sx={{backgroundColor:'#FF2625', padding:'10px', scrollBehavior:'smooth'}}
         >Explore Exercises</Button>
         <Typography sx={{opacity:'0.1',display:{lg:'block', sm:'none'}}}
         color='#FF2625' fontWeight='600' fontSize='250px'
